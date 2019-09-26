@@ -1,2 +1,6 @@
 # nw-cc-statement-to-csv
-Takes (UK) Nationwide Credit card statements and creates CSV's (since Nationwide doesn't provide CSV output for transactions in previous months!)
+A source of frustation for me is that Nationwide in the UK's online portal does not provide CSV exports of Credit Card transactions except for the "current" month - that means if I want all my transactions for a given month in a format I can do checks on easily (i.e. not a PDF!) I need to remember to get a download each month just before they release my statement (which is too easy to forget). Given that historical month's data is available in the PDF statements, this script is intended to extract from the PDF's which you can get and create a PDF from the data. 
+
+
+It is very "rough and ready" - it worked fine for my data, but please do not trust it with your own without verifying - I make many out-of-the-country transactions (i.e. non-GBP) for example, which I know it handles OK, but I suspect if you have unusual transaction field names it may "break" the data extraction. With that said, the only products I found on the market that do this cost £££'s or even ££££'s (as they are aimed at booking keeping and advanced needs which are beyond my requirements), or require are from small indepedent's but require internet access/online access to my bank account which doesn't fill me with confidence!  
+
